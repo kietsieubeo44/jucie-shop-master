@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop
+    ports:
+      - "7080:3000"
